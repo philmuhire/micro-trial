@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar ul{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#navbar ul li{
+    list-style: none;
+    
+}
+
+@media only screen and (max-width: 576px) {
+    #navbar ul{
+        width: 100%;
+    }
+    
+}
